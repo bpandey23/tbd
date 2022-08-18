@@ -1,0 +1,1 @@
+[ADDED] brute force substring search method

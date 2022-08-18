@@ -14,6 +14,7 @@ func main() {
 func brute_force_with_backup_string_search(pat, txt string) (start, end int, err error) {
 	n := len(txt)
 	m := len(pat)
+
 	//commented rune conversion , due to its limited scope
 	p_r := []byte(pat) // []rune(pat)
 	t_r := []byte(txt) //[]rune(txt)
